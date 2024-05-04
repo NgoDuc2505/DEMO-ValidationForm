@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <!-- FORM ĐĂNG KÍ -->
+  <div class="register main-content">
+    <div class="register-content  animate__animated animate__bounce">
+      <div class="close-register">
+        <button class="btn_close-register">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <h1>Register</h1>
+      <form>
+        <!-- Gmail input -->
+        <div class="form-control">
+           <input
+            type="email"
+            id="gmail"
+            name="gmail"
+            placeholder="Gmail"
+          />
+           <p class="warning-text animate__animated animate__headShake"></p>
+        </div>
+        <!-- Tên sinh viên input -->
+        <div class="form-control">
+          <input
+            type="text"
+            id="tenSinhVien"
+            name="tenSinhVien"
+            placeholder="Tên Sinh viên"
+          />
+           <p class="warning-text animate__animated animate__headShake"></p>
+        </div>
+        <!-- Mã sinh viên input -->
+        <div class="form-control">
+          <input
+            type="text"
+            id="maSinhVien"
+            name="maSinhVien"
+            placeholder="Mã Sinh viên"
+          />
+           <p class="warning-text animate__animated animate__headShake"></p>
+        </div>
+        <!-- Địa chỉ MAC input -->
+        <div class="form-control">
+          <input
+            type="text"
+            id="diaChiMAC"
+            name="diaChiMAC"
+            placeholder="Địa chỉ MAC"
+          />
+           <p class="warning-text animate__animated animate__headShake"></p>
+        </div>
+        <!-- Mật khẩu input -->
+        <div class="form-control">
+          <input
+            type="password"
+            id="matKhau"
+            name="matKhau"
+            placeholder="Mật khẩu"
+          />
+           <p class="warning-text animate__animated animate__headShake"></p>
+        </div>
+        <!-- Đăng kí button -->
+        <!-- <input type="submit" value="Đăng kí" /> -->
+        <button type="button" class="btn-register btn-handler">Đăng kí</button>
+        <!-- Link để đăng nhập -->
+        <div class="signup_link">
+            Already have an account? <a href="./dn.html">Login</a>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="./js/register.js"></script>
+</body>
+</html>
